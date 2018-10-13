@@ -2,7 +2,7 @@ FROM debian:stretch
 
 LABEL maintainer "Hank Birkdale <hank.birkdale@gmail.com>"
 
-# Install Python for Debian
+# Install Python2 and 3 for Debian
 RUN apt-get update && apt-get install --no-install-recommends -y \
   wget \
   bzip2 \
